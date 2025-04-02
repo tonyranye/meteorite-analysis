@@ -1,34 +1,35 @@
 # 🚀 Meteorite Landings on Earth  
 
 ## 📌 Overview  
-This project explores the relationship between meteorite impacts across different regions of Earth. Using historical impact event data, we analyze trends, locations, and potential correlations between meteorite landings and planetary cycles.  
+This project analyzes meteorite landings across different regions of Earth. Using historical impact event data, we explore trends, locations, and correlations related to meteorite impacts.  
 
 ## 📊 Dataset  
-The dataset used in this analysis is **Meteorite Landings**, which contains records of various impact events, including:  
+The dataset used in this analysis is **Meteorite Landings**, containing records of impact events, including:  
 - Impact location (latitude, longitude)  
 - Mass of meteorites  
 - Year of impact  
-- Classifications of meteorites  
 
-Additionally, **shapefiles** were used to determine continent locations based on latitude and longitude coordinates, allowing for regional analysis of meteorite landings.  
+Additionally, **shapefiles** are used for geospatial analysis, allowing us to map meteorite landings by continent.  
 
 ## 🛠 Technologies Used  
 - **Python** (Data Processing & Visualization)  
 - **Pandas** (Data Handling)  
 - **Seaborn & Matplotlib** (Data Visualization)  
 - **Jupyter Notebook** (Analysis & Experimentation)  
-- **Geopandas & Shapefiles** (Geospatial Analysis)  
+- **Geopandas & Shapely** (Geospatial Analysis)  
+- **TQDM** (Progress Tracking)  
 
 ## 📂 Project Structure  
 - `Assignment.ipynb` → Jupyter Notebook with full analysis  
-- `data/` → Contains the dataset used  
-- `shapefiles/` → Contains the shapefiles for geospatial analysis  
-- `README.md` → This documentation  
+- `data/` → Contains the dataset used (e.g., `Meteorite_Landings_YYYYMMDD.csv`)  
+- `shapefiles/` → Contains shapefiles for geospatial analysis  
+- `README.md` → Project documentation  
+- `requirements.txt` → List of required dependencies  
 
 ## 📈 Analysis Highlights  
 - Visualizing global meteorite impact locations  
 - Examining trends in impact frequency over time  
-- Identifying correlations between meteorite mass and impact effects  
+- Analyzing mass distribution of meteorites  
 - Mapping meteorite landings by continent using geospatial data  
 
 ## 🔧 How to Use  
@@ -53,3 +54,4 @@ Additionally, **shapefiles** were used to determine continent locations based on
 - Data Source: [NASA Open Data Portal](https://data.nasa.gov/)  
 - Image Source: cff2.earth.com  
 - Geospatial Data: Various shapefiles for continent mapping  
+
