@@ -7,7 +7,11 @@ This project analyzes meteorite landings across different regions of Earth. Usin
 The dataset used in this analysis is **Meteorite Landings**, containing records of impact events, including:  
 - Impact location (latitude, longitude)  
 - Mass of meteorites  
-- Year of impact  
+- Year of impact
+
+<img width="1024" height="405" alt="image" src="https://github.com/user-attachments/assets/83971807-a7ff-4717-90c8-93c0cb47b64d" />
+
+<br>
 
 Additionally, **shapefiles** are used for geospatial analysis, allowing us to map meteorite landings by continent.  
 
@@ -30,7 +34,10 @@ Additionally, **shapefiles** are used for geospatial analysis, allowing us to ma
 - Visualizing global meteorite impact locations  
 - Examining trends in impact frequency over time  
 - Analyzing mass distribution of meteorites  
-- Mapping meteorite landings by continent using geospatial data  
+- Mapping meteorite landings by continent using geospatial data
+
+<img width="782" height="588" alt="image" src="https://github.com/user-attachments/assets/6f53d57a-3938-4277-b5d6-e40e397b7e2a" />
+<br>
 
 ## 🔧 How to Use  
 1. Clone this repository:  
