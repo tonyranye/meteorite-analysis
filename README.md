@@ -24,7 +24,7 @@ Additionally, **shapefiles** are used for geospatial analysis, allowing us to ma
 - **TQDM** (Progress Tracking)  
 
 ## 📂 Project Structure  
-- `Assignment.ipynb` → Jupyter Notebook with full analysis  
+- `main.ipynb` → Jupyter Notebook with full analysis  
 - `data/` → Contains the dataset used (e.g., `Meteorite_Landings_YYYYMMDD.csv`)  
 - `shapefiles/` → Contains shapefiles for geospatial analysis  
 - `README.md` → Project documentation  
@@ -51,7 +51,7 @@ Additionally, **shapefiles** are used for geospatial analysis, allowing us to ma
    ```  
 3. Run the Jupyter Notebook:  
    ```bash  
-   jupyter notebook Assignment.ipynb  
+   jupyter notebook main.ipynb  
    ```  
 
 ## 📸 Sample Visualization  
