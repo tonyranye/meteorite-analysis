@@ -51,8 +51,13 @@ Additionally, **shapefiles** are used for geospatial analysis, allowing us to ma
    ```  
 3. Run the Jupyter Notebook:  
    ```bash  
-   jupyter notebook main.ipynb  
-   ```  
+   python -m jupyter nbconvert --to notebook --execute main.ipynb --output output/out.ipynb
+   ```
+
+3. Output file will be created at:
+   ```
+   output/out.ipynb
+   ```
 
 ## 📸 Sample Visualization  
 ![Meteor Impact](https://cff2.earth.com/uploads/2021/12/24065242/Asteroid-impact-scaled.jpg)  
